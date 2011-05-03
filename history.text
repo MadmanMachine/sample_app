@@ -1,0 +1,438 @@
+    1  sudo apt-get purge rails
+    2  sudo apt-get install ruby rubygems
+    3  ruby --version
+    4  gem --version
+    5  sudo gem install rails
+    6  which rails
+    7  rails --version
+    8  cd /var/lib/
+    9  ls
+   10  cd gems/
+   11  ls
+   12  cd 1.8/
+   13  cd bin
+   14  ls
+   15  ./rails --version
+   16  cd ~
+   17  pico .bashrc
+   18  exit
+   19  cd /var/lib/gems/1.8/bin/
+   20  pwd
+   21  exit
+   22  rails --version
+   23  ruby --version; gem --version; rails --version
+   24  exit
+   25  sudo apt-get update
+   26  sudo apt-get dist-upgrade
+   27  sudo reboot now
+   28  shutdown now
+   29  sudo shutdown now
+   30  sudo synaptic
+   31  exit
+   32  ruby --version
+   33  sudo apt-get install sqlite3 libsqlite3-dev
+   34  sudo gem install sqlite3-ruby
+   35  gem list
+   36  rails new testApp
+   37  cd testApp/
+   38  rails generate scaffold post title:string body:text
+   39  rails server
+   40  rake db:migrate
+   41  rails server
+   42  cd ..
+   43  rm -rf testApp/
+   44  ruby -v
+   45  sudo shutdown now
+   46  rvm info
+   47  exit
+   48  rvm info
+   49  x
+   50  ps
+   51  c
+   52  which git
+   53  git
+   54  sudo apt-get install git
+   55  clear
+   56  vi /home/student/.profile 
+   57  . .bashrc
+   58  c
+   59  c;d
+   60  c
+   61  git
+   62  sudo apt-get install git-core
+   63  sudo apt-get autoremove
+   64  set -o vi
+   65  c; sudo apt-get install git-core
+   66  c; sudo apt-get install git-core git-doc
+   67  c; git st
+   68  git --version
+   69  c
+   70  ruby -v
+   71  rvm info
+   72  c
+   73  student@ubuntu:~$ ruby -v
+   74  ruby 1.8.7 (2010-06-23 patchlevel 299) [i686-linux]
+   75  student@ubuntu:~$ ruby -v
+   76  ruby 1.8.7 (2010-06-23 patchlevel 299) [i686-linux]
+   77  bash < <( curl http://rvm.beginrescueend.com/releases/rvm-install-head )
+   78  sudo apt-get install curl
+   79  c; bash < <( curl http://rvm.beginrescueend.com/releases/rvm-install-head )
+   80  rvm info
+   81  c;
+   82  rvm update --head
+   83  exit
+   84  rvm update --head
+   85  rvm reload
+   86  c
+   87  rvm install 1.8.7
+   88  rvm install 1.9.2
+   89  rvm --create 1.9.2@rails3tutorial
+   90  rvm --default 1.9.2@rails3tutorial
+   91  vi ~/.bashrc
+   92  which gem
+   93  c; gem list -r rails
+   94  c; gem install rails
+   95  exit
+   96  sudo aptitude install build-essential bison openssl libreadline6 libreadline6-dev curl git-core zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-0 libsqlite3-dev sqlite3 libxml2-dev libxslt-dev autoconf libc6-dev
+   97  vi ~/.bashrc
+   98  set -o vi
+   99  sudo apt-get install build-essential bison openssl libreadline6 libreadline6-dev curl git-core zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-0 libsqlite3-dev sqlite3 libxml2-dev libxslt-dev autoconf libc6-dev
+  100  vi ~/.bashrc
+  101  c
+  102  exit
+  103  cd ..
+  104  cd ~
+  105  cd .ssh
+  106  ls
+  107  ssh-keygen
+  108  ls
+  109  cat id_rsa.pub
+  110  $ apt-get install git-core
+  111  y
+  112  dir
+  113  mkdir railsproj
+  114  cd railsproj
+  115  rails scaffold
+  116  rails new scaffoldinglab
+  117  cd..
+  118  cd ..
+  119  delete railsproj
+  120  del railsproj
+  121  rem railsproj
+  122  rm -rf scaffoldinglab
+  123  ls
+  124  rm -rf railsproj
+  125  ls
+  126  mkdir crud_lab
+  127  cd crud_lab
+  128  rails new movie_app
+  129  bundle install
+  130  cd movie_app
+  131  bundle install
+  132  get init
+  133  git init
+  134  git remote add origin git@github.com:MadmanMachine/movie_app.git
+  135  git add . 
+  136  git status
+  137  git commit -m 'first commit'
+  138  git push origin master
+  139  rails generate scaffold Movie name:string director:string length:integer genre:string description:text
+  140  rails server
+  141  rails generate scaffold Actor name:string gender:boolean role:string
+  142  rake db:migrate
+  143  rails generate migration add_movie_id_to_Actors
+  144  rake db:migrate
+  145  rails console
+  146  git status
+  147  git add . 
+  148  git commit -m "actors and movies added"
+  149  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDG5b2DNQn1YLQSMF/FJjQb+Z5o8ojkcxETyDUL8J8iHh4Aje9PM9YYI6q/AyFSQxt0AF0i4k2r3Qyt4g2FGCXuFFoXihDwoc+t3S0Pb6vMSJZSxQY93IEGIimPIBuX+F9Qq9aMtuYb4bnz2DltrjER+oc+BmbU16yaYvRvcSher8j8pZe7Q4e2Dx289VtYuOFlmghcyrptwsOuu1jwBMpgS7LgyBJh7uKTUavs7iIEfFPhk7bC+3uCz850IdpZ6hHLmWHijNNZEP5FSNVLZFwCtL/4JA1IhIGgtItkNNEA/jwPK0JrzHGRa+T3vzpNA4vXrwg4nRP6f0LvDvR9SJU1 student@ubuntu
+  150  git config --global user.name "Geoff_Schindler"
+  151  git config --global user.email you@example.com
+  152  git config --global user.email geoffs.gears@gmail.com
+  153  git push
+  154  sudo gem install heroku 
+  155  heroku create
+  156  which heroku
+  157  gem list
+  158  gem install heroku
+  159  heroku create
+  160  git push heroku master
+  161  heroku rake db:migrate
+  162  gem install taps
+  163  heroku db:push
+  164  rake db:migrate
+  165  rails server
+  166  dir
+  167  cd ~\rails_projects
+  168  cd crud_lab
+  169  dir
+  170  movie_app
+  171  cd..
+  172  cd
+  173  mkdir rails_projects
+  174  cd rails_projects
+  175  rails new demo_app
+  176  bundle install
+  177  cd demo_app
+  178  bundle install
+  179  git init
+  180  git add .
+  181  git commit -m
+  182  git commit -m "Initial commit"
+  183  git remote add origin git@github.com:MadmanMachine/demo_app.git
+  184  git push origin master
+  185  rails generate scaffold User name:string email:string
+  186  rake db:migrate
+  187  rails s
+  188  rails generate scaffold Micropost content:string user_id:integer
+  189  rake db:migrate
+  190  git add .
+  191  git commit -a -m "Done with demo app"
+  192  git push
+  193  cdcd..
+  194  cd
+  195  cd ~/rails_projects
+  196  rails new sample_app -T
+  197  cd sample_app
+  198  bundle install
+  199  rails generate rspec:install
+  200  git init
+  201  git add .
+  202  git commit -m "Initial Commit"
+  203  git mv README README.markdown
+  204  git commit -a -m "improved README"
+  205  git remote add origin git@github.com:MadmanMachine/cample_app.git
+  206  git push origin master
+  207  git remote add origin git@github.com:MadmanMachine/sample_app.git
+  208  git push origin master
+  209  git remote add origin git@github.com:MadmanMachine/sample_app.git
+  210  ~/rails_project
+  211  dir
+  212  ~/rails_projects
+  213  cd ~/rails_projects
+  214  cd sample_app
+  215  git remote add origin git@github.com:MadmanMachine/sample_app.git
+  216  git remote rm
+  217  git remote rm origin
+  218  git remote add origin git@github.com:MadmanMachine/sample_app.git
+  219  git push origin master
+  220  mate public/hello.html
+  221  rm public/hello.html
+  222  git checkout -b static-pages
+  223  rails generate controller Pages home contact
+  224  cd ~/rails_projects/sample_app
+  225  time rspec spec/
+  226  rspec spec
+  227  rspec spec/
+  228  cd ~/rails_projects/sample_app
+  229  git add .
+  230  git commit -am "added Pages Controller"
+  231  git rm -r spec/views
+  232  git rm -r spec/helpers
+  233  rspec spec/
+  234  rspec spec/controllers/
+  235  rspec spec/controllers/pages_controller_spec.rb
+  236  bundle install
+  237  spork --bootstrap
+  238  time rspec spec/
+  239  spork
+  240  cd ~/rails_projects/sample_app
+  241  rspec rails/
+  242  rspec spec/
+  243  exit
+  244  cd ~/rails_projects/sample_app
+  245  rspec spec/
+  246  rm app/views/layouts/application.html.erb
+  247  rspec spec/
+  248  script
+  249  vi typescript
+  250  rspec spec/
+  251  git add .
+  252  git commit -am "done with static pages"
+  253  git checkout master
+  254  git merge static-pages
+  255  rspec spec/
+  256  git push
+  257  git push heroku
+  258  rspec spec/
+  259  gem install heroku
+  260  heroku keys:add
+  261  heroku create
+  262  git push heroku master
+  263  heroku open
+  264  git push heroku
+  265  rspec spec/
+  266  cp -r ~/Downloads/joshclayton-blueprint-css-v1.0-1-g5d113e9/blueprint/public/stylesheets
+  267  cp -r ~/Downloads/joshclayton-blueprint-css-v1.0-1-g5d113e9/blueprint \ >public/stylesheets/
+  268  heroku rake db:migrate
+  269  heroku restart
+  270  heroku log
+  271  heroku logs
+  272  cd ~/rails_projects/sample_app
+  273  rspec spec/
+  274  spork
+  275  cd ~/rails_projects/sample_app
+  276  rspec spec/
+  277  git add .
+  278  git commit -am "doen with about page"
+  279  git push
+  280  rails s
+  281  cd ~/rails_projects/sample_app
+  282  rails console
+  283  cd ~/rails_projects/sample_app
+  284  rails seerver
+  285  rails server
+  286  cd rails_projects/sample_app
+  287  rails s
+  288  git checkout -b filling-in-layout
+  289  dir
+  290  cd rails_projects
+  291  dir
+  292  cd sample_app
+  293  git checkout -b filling-in-layout
+  294  git server
+  295  rails s
+  296  rails generate integration_test layout_links
+  297  describe "GET 'home'" do
+  298  it "should be successful" do
+  299  rspec spec/
+  300  git rm public/index.html
+  301  git commit -am "Removed default Rails Page"
+  302  rails generate controller Users new
+  303  rm -rf spec/views
+  304  rm -rf spec/helpers
+  305  rspec spec/
+  306  git add .
+  307  git commit -m "Finished layout and routes"
+  308  git checkout master
+  309  git merge filling_in_layout
+  310  git merge filling-in-layout
+  311  git push
+  312  git push heroku
+  313  rspec spec/
+  314  git push
+  315  git push heroku
+  316  cd ~/rails_projects
+  317  dir
+  318  cd sample_app
+  319  rails generate controller Users new
+  320  cd ~/rails_projects/sample_app
+  321  rails generate model User name:string email:string
+  322  rake db:migrate
+  323  bundle install
+  324  annotate
+  325  rails console --sandbox
+  326  rake db:test:prepare
+  327  rspec spec/models/user_spec.rb
+  328  cd ~/rails_projects/sample_app
+  329  rspec spec/models/user_spec.rb
+  330  rails generate migration add_email_uniqueness_index
+  331  rake db:migrate
+  332  rails console
+  333  git add .
+  334  git commit -m "finished 6"
+  335  git push
+  336  heroku rake db:master
+  337  heroku create
+  338  git push heroku master
+  339  heroku rake db:master
+  340  git push heroku master
+  341  rails console --sandbox
+  342  cd ~/rails_projects/sample_app
+  343  rails console --sandbox
+  344  rails generate migration add_password_to_users encrypted_password:string
+  345  rake db:migrate
+  346  rake db:test:prepare
+  347  rspec spec.models.user_spec.rb -e "should have an encrypted password attribute"
+  348  rspec spec/models/user_spec.rb -e "should have an encrypted password attribute"
+  349  rails console --sandbox
+  350  cd ~/rails_projects/sample_app
+  351  rails server
+  352  cd ~/rails_projects/sample_app
+  353  cd mileage_tracker
+  354  cd
+  355  cd ~/rails_projects
+  356  dir
+  357  cd ~/rails_projects/sample_app
+  358  rails generate migration add_salt_to_users salt:string
+  359  rake db:migrate
+  360  rake db:test:prepare
+  361  bundle install
+  362  rails server
+  363  git branch
+  364  git push heroku
+  365  heroku rake db:migrate
+  366  git add .
+  367  git commit -m "User model with passwords"
+  368  rake db:reset
+  369  git checkout master
+  370  git checkout -b signing-up
+  371  rails console
+  372  rails generate integration_test_users
+  373  rails generate integration_test users
+  374  git add .
+  375  git commit -m "user sign up"
+  376  git checkout master
+  377  git merge signing-up
+  378  git branch
+  379  rspec spec
+  380  push github
+  381  github push
+  382  git push
+  383  heroku push
+  384  git push heroku master
+  385  cd ~/rails_projects/sample_app
+  386  rails server
+  387  cd ~/rails_projects/sample_app
+  388  git pus
+  389  git push
+  390  git branch
+  391  git merge filling-in-layout
+  392  git merge signing-up
+  393  git merge static-pages
+  394  git heroku push
+  395  git push heroku master
+  396  git commit
+  397  git push
+  398  git push heroku master
+  
+  
+  
+  4/12/11 this will help in making new gem files
+  
+  399  cd ~/rails_projects
+  400  rails server
+  401  cd sample_app
+  402  rails server
+  403  cd ..
+  404  cd hotdogs
+  405  rails server
+  406  cp ../sample_app/Gemfile .
+  407  rvm info
+  408  rvm 1.9.2
+  409  rvm info
+  410  gem list
+  411  rvm gemset create hotdog
+  412  rvm gemset use hotdog
+  413  rvm info
+  414  gem list
+  415  bundle
+  416  gem install bundler
+  417  bundle
+  418  touch .rvmrc
+  419  gemlist
+  420  gem list
+  421  rvm info
+  422  cd ..
+  423  cd hotdogs
+  424  rvm info
+  425  rails server
+  426  cd ../sample_app
+  427  rvm info
+  428  ls -la
+  429  touch .rvmrc
+  430  rvm gemset list_all
+  431  rvm 1.9.2@rails3tutorial
+  432  gem list
+  433  history > history.text
