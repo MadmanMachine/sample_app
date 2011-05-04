@@ -14,14 +14,18 @@ class UsersController < ApplicationController
     @title = @user.name
   end
 
-
-
   def new
+    if current_user
+     redirect_to :root
+    end
     @user = User.new
     @title = "Sign up"
   end
 
   def create
+    if current_user
+     redirect_to :root
+    end
     @user = User.new(params[:user])
     if @user.save
       sign_in @user
@@ -36,7 +40,6 @@ class UsersController < ApplicationController
   def edit
     @title = "Edit user"
   end
-
 
   def update
     @user = User.find(params[:id])
