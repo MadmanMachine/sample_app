@@ -245,4 +245,24 @@ form.new_micropost textarea {
   margin-bottom: 0;
 }
 
+div.microposts {
+  margin-top: 1em;
+}
 
+div.microposts ol li.gravatar {
+  border-top: 1px solid #ccc;
+  vertical-align: top;
+  width: 50px;
+}
+
+div.microposts ol li.micropost {
+  border-top: 1px solid #ccc;
+  vertical-align: top;
+  padding-top: 10px;
+}
+
+div.microposts ol li.micropost span.timestamp {
+  display: block;
+  font-size: 85%;
+  color: #666;
+}
